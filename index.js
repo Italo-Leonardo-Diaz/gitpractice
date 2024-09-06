@@ -14,3 +14,9 @@ function greet(name, language = "en") {
 }
 
 console.log(greet("World", "es"));
+
+function farewell(name) {
+    return `Goodbye, ${name}!`;
+}
+
+console.log(farewell("World"));
